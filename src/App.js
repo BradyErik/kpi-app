@@ -6,7 +6,7 @@ import { Select } from './components/ui/Select';
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid, ResponsiveContainer } from "recharts";
 import { createClient } from "@supabase/supabase-js";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import "./react-datepicker.css";
 import classNames from "classnames";
 
 const supabaseUrl = "https://odquktabcmooqunriymd.supabase.co";
