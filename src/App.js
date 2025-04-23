@@ -10,7 +10,7 @@ import "./react-datepicker.css";
 import classNames from "classnames";
 
 const supabaseUrl = "https://odquktabcmooqunriymd.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."; // shortened for brevity
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9kcXVrdGFiY21vb3F1bnJpeW1kIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDUyNDYyMTAsImV4cCI6MjA2MDgyMjIxMH0.ha0TOuqJdqee6CriQvksth4uEGyfaulfeNObCV2o4ug";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function KPIReportingApp() {
